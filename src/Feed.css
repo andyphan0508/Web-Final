@@ -1,0 +1,14 @@
+.feed {
+  background-color: white;
+  flex: 0.8;
+}
+.feedHeader {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  padding: 15px 20px;
+}
+.feed:-webkit-scrollbar {
+  display: none;
+}

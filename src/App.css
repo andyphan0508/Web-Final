@@ -1,0 +1,27 @@
+/* Global CSS for all the CSS file */
+body {
+  --twitter-color: #55acee;
+  --background-color: #fff;
+}
+p {
+  color: gray;
+  padding: 10px;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+.sidebarTwitterIcon {
+  background-color: var(--twitter-color);
+  border-radius: 6px;
+  color: #fff;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
